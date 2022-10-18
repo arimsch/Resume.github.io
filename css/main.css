@@ -7,6 +7,7 @@
     body {
         font-family: 'Poppins', sans-serif;
         color: black;
+        background-color: #e5d2ca;
     }
     
     .container {
@@ -256,4 +257,14 @@
     
     .contacts-footer {
         color: #828282;
+    }
+    /* achievements page */
+    
+    .achieve_list>.flex-list {
+        display: flex;
+        flex-direction: column;
+        background-image: url("/img/content/paper2.jpg");
+        margin: 5em 15em;
+        min-height: 30em;
+        object-fit: contain;
     }
