@@ -7,7 +7,7 @@
     body {
         font-family: 'Poppins', sans-serif;
         color: black;
-        background-color: #e5d2ca;
+        background-color: #fef9f5;
     }
     
     .container {
@@ -42,7 +42,7 @@
     /* Header */
     
     .header {
-        padding-top: 2.5em;
+        padding-top: 2em;
         background-color: #F1F1F1;
         background-color: #e5d2ca;
     }
@@ -51,7 +51,8 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        margin-bottom: 5em;
+        padding-bottom: 2em;
+        margin-bottom: 3em;
     }
     
     .logo {
@@ -262,9 +263,26 @@
     
     .achieve_list>.flex-list {
         display: flex;
+        position: relative;
         flex-direction: column;
         background-image: url("/img/content/paper2.jpg");
-        margin: 5em 15em;
+        margin: 3em 15em;
+        padding: 2.5em 5em;
         min-height: 30em;
         object-fit: contain;
+    }
+    
+    .flex-list::after {
+        position: absolute;
+        width: 0;
+        height: 0;
+        content: "";
+        top: -.3em;
+        left: -.3em;
+        border: 40px solid;
+        border-color: #5e452c transparent transparent #5e452c;
+    }
+    
+    .flex-list>p+p {
+        margin-top: 1em;
     }
