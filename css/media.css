@@ -1,4 +1,4 @@
-@media (max-width: 1230px) {
+@media (max-width: 70em) {
     .nav-list {
         display: none;
     }
@@ -54,13 +54,7 @@
     }
 }
 
-@media (max-width: 700px) {
-    .header-heading {
-        font-size: 34px;
-    }
-    .header-heading span {
-        font-size: 28px;
-    }
+@media (max-width: 35em) {
     .services {
         padding: 60px 0;
     }

@@ -1,7 +1,13 @@
     @import "./reset.css";
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
      :root {
-        font-size: 1em;
+        font-size: calc(1vw+0.6em);
+    }
+    
+    @media(min-width:80em) {
+         :root {
+            font-size: 1em;
+        }
     }
     
     body {
@@ -43,7 +49,6 @@
     
     .header {
         padding-top: 2em;
-        background-color: #F1F1F1;
         background-color: #e5d2ca;
     }
     
@@ -111,7 +116,7 @@
     .header-heading {
         margin-bottom: 0.2em;
         font-weight: 600;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .header-content p {
@@ -280,7 +285,8 @@
         top: -.3em;
         left: -.3em;
         border: 40px solid;
-        border-color: #5e452c transparent transparent #5e452c;
+        border-color: #8b6f63 transparent transparent #8b6f63;
+        ;
     }
     
     .flex-list>p+p {
