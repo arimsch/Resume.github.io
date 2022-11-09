@@ -1,11 +1,11 @@
 @media (max-width: 70em) {
-    .nav-list {
+    .header-nav__list {
         display: none;
     }
     .nav-button {
         display: block;
     }
-    .nav.open .nav-list {
+    .nav.open .header-nav__list {
         position: fixed;
         top: 0;
         bottom: 0;
@@ -35,9 +35,6 @@
     }
     .nav.open .nav-button {
         position: fixed;
-    }
-    .header-nav {
-        margin-bottom: 50px;
     }
     .header-row {
         flex-direction: column;
