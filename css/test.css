@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700");
+.testSt {
+    font-family: Oswald, sans-serif;
+    background-color: aquamarine;
+    border: 3px solid white;
+    padding: 3em;
+}

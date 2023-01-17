@@ -1,11 +1,14 @@
-@media (max-width: 70em) {
-    .nav-list {
-        display: none;
+@media (max-width: 60em) {
+    .header-nav__list {
+        /* display: none; */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s linear;
     }
     .nav-button {
         display: block;
     }
-    .nav.open .nav-list {
+    .nav.open .header-nav__list {
         position: fixed;
         top: 0;
         bottom: 0;
@@ -20,6 +23,8 @@
         font-size: 1rem;
         font-weight: 600;
         overflow: auto;
+        opacity: 1;
+        visibility: visible;
     }
     .nav-link {
         color: #828282;
@@ -36,9 +41,6 @@
     .nav.open .nav-button {
         position: fixed;
     }
-    .header-nav {
-        margin-bottom: 50px;
-    }
     .header-row {
         flex-direction: column;
         row-gap: 20px;
@@ -50,7 +52,24 @@
         text-align: center;
     }
     .text-me {
-        padding: 0;
+        padding: 2.5em 0 0 15px;
+        font-size: 1.5rem;
+    }
+    .service-card {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 45em) {
+    /* achievements page */
+    .achieve>.achieve__list {
+        background-image: none;
+        min-height: 30em;
+        margin: auto;
+        font-size: 1.1rem;
+    }
+    .achieve__list::after {
+        display: none;
     }
 }
 
