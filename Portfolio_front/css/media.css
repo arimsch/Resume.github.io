@@ -1,0 +1,113 @@
+@media (max-width: 60em) {
+    .header-nav__list {
+        /* display: none; */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s linear;
+    }
+    .nav-button {
+        display: block;
+    }
+    .nav.open .header-nav__list {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 1;
+        padding: 2em 2em;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+        font-size: 1rem;
+        font-weight: 600;
+        overflow: auto;
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-link {
+        color: #828282;
+    }
+    .nav-link.active {
+        color: black;
+    }
+    .nav-button {
+        position: absolute;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+    }
+    .nav.open .nav-button {
+        position: fixed;
+    }
+    .header-row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .header-content {
+        margin-top: 0;
+    }
+    .header-img {
+        text-align: center;
+    }
+    .text-me {
+        padding: 2.5em 0 0 15px;
+        font-size: 1.5rem;
+    }
+    .service-card {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 45em) {
+    /* achievements page */
+    .achieve>.achieve__list {
+        padding: 1.5em 4em 3em;
+        font-size: 1rem;
+    }
+    .achieve__list::after {
+        display: none;
+    }
+    /* myWay page */
+    .media {
+        float: none;
+        margin: 0 2em 2em 5em;
+        text-align: left;
+        width: auto;
+    }
+}
+
+@media (max-width: 35em) {
+    .services {
+        padding: 60px 0;
+    }
+    .portfolio {
+        padding: 60px 0;
+    }
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
+    .project-img {
+        margin-bottom: 30px;
+    }
+    .project+.project {
+        margin-top: 55px;
+    }
+    .contacts {
+        padding: 60px 0;
+    }
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+    .contacts-content {
+        margin-bottom: 20px;
+    }
+    .contacts-button {
+        margin-bottom: 70px;
+    }
+    .contacts-social {
+        column-gap: 50px;
+        margin-bottom: 20px;
+    }
+}
