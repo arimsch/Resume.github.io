@@ -5,26 +5,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/test.css">
+    <title>Arina Matushkina</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
 
 <body>
-    <div class="testSt">Я тут</div>
-    <ul class="menu">
-        <li>
-            <a>Главная</a>
-        </li>
-        <li>
-            <a>Возможности</a>
-        </li>
-        <li>
-            <a>Цены</a>
-        </li>
-        <li>
-            <a>О нас</a>
-        </li>
-    </ul>
+    <header class="header">
+        <div class="container">
+            <!-- Header nav -->
+            <div class="header-nav">
+                <a href="/index.html" class="header-nav__logo">Arina <span class="italic-font-block">M</span></a>
+                <nav id="nav" class="nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item">
+                            <a href="/index.html" class="nav-link">
+                                <img class="nav-btn-items" src="../img/icons/about-me.svg" alt="About me"> Обо мне
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="./achievements.html" class="nav-link">
+                                <img class="nav-btn-items" src="../img/icons/awards_2.svg" alt="Awords"> Достижения
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="./myWay.html" class="nav-link active">
+                                <img class="nav-btn-items" src="../img/icons/way_2.svg" alt="Way"> Путь в IT
+                            </a>
+                        </li>
+                        <!-- <li class="header-nav__item">
+                            <a href="#!" class="nav-link">
+                                <img class="nav-btn-items" src="../img/icons/contacts.svg" alt="Contacts"> Контакты
+                            </a>
+                        </li> -->
+
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id= "nav-btn-img" src="../img/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="main clearfix">
+
+        <div class="media">
+            <h4>Step 0</h4>
+            <p>Цель: выбрать направление разработки</p>
+            <div class="box-items">Семестровый курс от mail.ru "Введение в QA"</div>
+            <div class="box-items">Android приложение "Прогноз погоды"</div>
+        </div>
+
+        <div class="media">
+            <h4>Step 1</h4>
+            <p>Цель: изучить углубленно Git и алгоритмы</p>
+            <div class="box-items">Курс на Хекслет "Введение в Git"</div>
+            <div class="box-items">Тинькофф образование "Алгоритмы и структуры данных" </div>
+            <div class="box-items">Задачи на LeetCode</div>
+        </div>
+
+        <div class="media">
+            <h4>Step 2</h4>
+            <p>Цель: HTML и CSS</p>
+            <div class="box-items">Кит Грант "CSS для профи"</div>
+            <div class="box-items">Курсы и статьи на webref.ru </div>
+            <div class="box-items">Документация</div>
+        </div>
+
+        <div class="media">
+            <h4>Step 3</h4>
+            <p>Цель: JavaScript</p>
+            <div class="box-items">Современный учебник JavaScript</div>
+            <div class="box-items">Николас Закас "JavaScript для профессиональных разработчиков"</div>
+        </div>
+
+        <div class="media">
+            <h4>Step 4</h4>
+            <p>Цель: знакомство с JS фреймворками</p>
+            <div class="box-items">Выбрала для НИР исследование современных JS фреймворков: Angular, Vue, Ember и библиотеку React</div>
+        </div>
+    </div>
+
+    <footer class="contacts-dark">
+        <div class="container">
+            <div class="contact-title">
+                <h2 class="title-1">
+                    Контакты
+                </h2>
+
+            </div>
+            <div class="contacts-content">
+                <p><img class="nav-btn-items" src="../img/icons/coordinates.svg" alt="coordinates">Россия, Санкт-Петербург</p>
+                <p>Email: <a href="mailto:arina1998-v2013@yandex.ru">arina1998-v2013@yandex.ru</a></p>
+                <p>Tel: <a href="tel:+79500071367">+79500071367</a></p>
+
+                <div class="contacts-button">
+                    <a href="https://t.me/ariantush" class="btn">Написать</a>
+                </div>
+                <div class="contacts-social">
+                    <a href="https://t.me/ariantush"><img class="footer-icons" src="../img/socials/tg.svg" alt="Tg"></a>
+                    <a href="https://vk.com/arinamsh" target="_blank"><img class="footer-icons" src="../img/socials/vk.svg" alt="vk"></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../js/main.js"></script>
 </body>
 
 </html>

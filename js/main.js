@@ -7,9 +7,9 @@ let ind = 0;
 
 navBtn.onclick = () => {
     if (nav.classList.toggle('open')) {
-        navBtnImg.src = "./img/icons/nav-close.svg";
+        navBtnImg.src = "../img/icons/nav-close.svg";
     } else {
-        navBtnImg.src = "./img/icons/nav-open.svg";
+        navBtnImg.src = "../img/icons/nav-open.svg";
     }
 
 }
