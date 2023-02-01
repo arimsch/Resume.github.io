@@ -1,9 +1,0 @@
-body {
-    background-image: url("/img/test.jpg");
-    background-position: center 200px;
-    background-repeat: no-repeat;
-}
-
-.menu li {
-    display: inline-block;
-}
